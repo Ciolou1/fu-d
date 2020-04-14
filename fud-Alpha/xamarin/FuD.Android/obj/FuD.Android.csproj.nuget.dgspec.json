@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj": {}
+    "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj": {
+    "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj",
+        "projectUniqueName": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj",
         "projectName": "FuD.Android",
-        "projectPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj",
-        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\obj\\",
+        "projectPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\FuD.Android.csproj",
+        "packagesPath": "C:\\Users\\samlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
-                "projectPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj"
+              "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
+                "projectPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj"
               }
             }
           }
@@ -42,32 +42,37 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.5.0.617, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
+    "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
+        "projectUniqueName": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
         "projectName": "FuD",
-        "projectPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
-        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\obj\\",
+        "projectPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
+        "packagesPath": "C:\\Users\\samlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -100,11 +105,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.5.0.617, )"
             }
           },
           "imports": [

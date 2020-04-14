@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {}
+    "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
+    "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
+        "projectUniqueName": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
         "projectName": "FuD",
-        "projectPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
-        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computer\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\obj\\",
+        "projectPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\FuD.csproj",
+        "packagesPath": "C:\\Users\\samlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samlo\\Source\\Repos\\lowrancr\\fu-d\\fud-Alpha\\xamarin\\FuD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -48,13 +49,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.5.0.617, )"
             }
           },
           "imports": [
